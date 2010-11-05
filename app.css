@@ -1,0 +1,46 @@
+html, body {
+  margin: 0;
+  padding: 0;
+}
+
+#canvas {
+  background-image: url('board.png');
+}
+
+#tray {
+  background-image: url('tray.png');
+  background-position: left bottom;
+  background-repeat: repeat-x;
+  height: 60px;
+  position: relative;
+}
+
+#tray a {
+  display: block;
+  position: absolute;
+}
+
+#eraser {
+  background-color: #000;
+  height: 40px;
+  left: 20px;
+  top: 10px;
+  width: 80px;
+}
+
+#black {
+  background-color: #000;
+  height: 15px;
+  left: 140px;
+  top: 35px;
+  width: 100px;
+}
+
+#red {
+  background-color: #f00;
+  height: 15px;
+  left: 260px;
+  top: 35px;
+  width: 100px;
+}
+
